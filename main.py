@@ -9,7 +9,7 @@ import bot_commands as bc
 import os
 os.system('cls')
 
-app = ApplicationBuilder().token("5812301493:AAGP6LQ1R9DZ5SA-FkzcXZENs9QiMtm2a_8").build()
+app = ApplicationBuilder().token("YOUR TOKEN").build()
 print('server start')
      
 app.add_handler(CommandHandler("start", bc.start))
